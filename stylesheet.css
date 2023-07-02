@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Freehand&display=swap');
+html{
+    background-color: #E2D4BA;
+    scroll-behavior: smooth;
+}
+@keyframes slideLeft{
+    from{
+       transform: translateX(300px)
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+#boldyce{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 8rem;
+    margin-top: 4rem;
+    color: #653239;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+.intro{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    padding: 2rem 25rem ;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: -3rem;
+    color: #AF7A6D;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+  }
+  
+
+#contact{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 550;
+    padding: 3rem 10rem ;
+    text-align: center;
+    font-size: 3rem;
+    margin-left: -15rem;
+    color: #EAF9D9;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+#id{
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 550;
+    margin-top: -6.5rem;
+    margin-left: 50rem;
+    font-size: 3rem;
+    color: #C9A794;
+    text-decoration: none;
+}
+#findMe{
+    border-radius: 65% 35% 62% 38% / 46% 53% 47% 54% ;
+    width: 10rem;
+    height: 7rem;
+    margin-left: 35rem;
+    border-width: 0px;
+    background-color: #C9A794;
+    font-size: 1.75rem;
+    font-family: 'Bagel Fat One', cursive;
+    color: #653239;
+
+}
+#findMe:hover{
+    background-color: #653239;
+    color: #C9A794;
+
+}
+#knowMe{
+    border-radius: 65% 35% 81% 19% / 24% 53% 47% 76%  ;
+    width: 10rem;
+    height: 6rem;
+    border-width: 0px;
+    margin-left: 3px;
+    background-color: #AF7A6D;
+    font-size: 1.75rem;
+    font-family: 'Bagel Fat One', cursive;
+    color: #EAF9D9;
+}
+#knowMe:hover{
+    background-color: #EAF9D9;
+    color:#AF7A6D;
+}
+#findLink{
+    background-color: #AF7A6D;
+    
+}
+#findT{
+    color: #EAF9D9;
+    font-family: 'Freehand', cursive;
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 10rem;
+    margin-bottom: 2rem;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+#findT2{
+    color:#E2D4BA;
+    font-family: 'Freehand', cursive;
+    text-align: center;
+    font-size: 4rem;
+    background-color: #AF7A6D;
+
+}
+#github{
+    width: 20rem;
+    height: 10rem;
+    margin-left: 15rem;
+    margin-right: 20px;
+    border-radius: 30% 70% 29% 71% / 53% 39% 61% 47% ;
+    border-width: 0px;
+    background-color: #C9A794;
+    font-size: 5rem;
+    font-family: 'Freehand', cursive;
+    color: #653239;
+    margin-bottom: 8rem;
+
+
+}
+#github:hover{
+    background-color: #653239;
+    color: #C9A794;
+
+}
+#email{
+    width: 20rem;
+    height: 10rem;
+    margin-left: 20px;
+    margin-bottom: 8rem;
+    border-radius: 66% 34% 70% 30% / 30% 39% 61% 70% ;
+    border-width: 0px;
+    background-color: #C9A794;
+    font-size: 5rem;
+    font-family: 'Freehand', cursive;
+    color: #653239;
+   
+
+}
+#email:hover{
+    background-color: #653239;
+    color: #C9A794;
+
+}
+#linkedin{
+    width: 20rem;
+    height: 10rem;
+    margin-bottom: 8rem;
+    margin-left: 20px;
+    border-radius: 83% 17% 61% 39% / 53% 39% 61% 47% ;
+    border-width: 0px;
+    background-color: #C9A794;
+    font-size: 5rem;
+    font-family: 'Freehand', cursive;
+    color: #653239;
+
+
+}
+#linkedin:hover{
+    background-color: #653239;
+    color: #C9A794;
+
+}
+#knowLink{
+    background-color: #CCC7B9;
+}
+#knowT{
+    font-family: 'Bagel Fat One', cursive;
+    color: #653239;    
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: 8rem;
+    margin-top: 8rem;
+}
+#imagi{
+    margin-top: 2rem;
+    width: 10rem;
+    height: 10rem; 
+    margin-left: 25rem;
+    margin-bottom: 5rem;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+#imagi1{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+#imagi2{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+#imagi3{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 25rem;
+    margin-bottom: 5rem;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+#imagi4{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
+#imagi5{
+    width: 10rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+    animation-name: slideLeft;
+    animation-duration: 3s;
+}
