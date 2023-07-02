@@ -55,6 +55,8 @@ html{
     font-size: 3rem;
     color: #C9A794;
     text-decoration: none;
+    animation-name: slideLeft;
+    animation-duration: 3s;
 }
 #findMe{
     border-radius: 65% 35% 62% 38% / 46% 53% 47% 54% ;
